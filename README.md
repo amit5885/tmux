@@ -37,11 +37,6 @@ This repository contains a collection of essential **tmux** keybindings and comm
 - `ctrl+a, alt, 1/2/3/4/5` => Resize the current pane
 - `ctrl+a, m` => Maximize the current pane
 
-### Copy Mode
-- `ctrl+a, [` => Enter copy mode
-- `ctrl+c` => Exit copy mode
-- `ctrl+a, h/j/k/l` => Move in copy mode using the arrow keys
-
 ### Miscellaneous
 - `ctrl+a, I` => Install a package through the package manager
 - `ctrl+a, r` => Refresh tmux (reload the `.config` file)
@@ -59,8 +54,4 @@ To use these keybindings, you can add the necessary tmux configuration to your `
 
 Here is a basic example of how to add custom keybindings to `~/.tmux.conf`:
 
-```bash
-# Example tmux keymap configuration
-bind c new-window  # Bind 'c' to create a new window
-bind % split-window -h  # Bind '%' to split the window horizontally
-bind '"' split-window -v  # Bind '"' to split the window vertically
+---
