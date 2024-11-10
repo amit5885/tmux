@@ -27,8 +27,8 @@ This repository contains a collection of essential **tmux** keybindings and comm
 - `ctrl+a, p` => Move to the previous window
 
 ### Pane Management
-- `ctrl+a, %` => Split the current pane horizontally
-- `ctrl+a, "` => Split the current pane vertically
+- `ctrl+a, %` => Split the current pane vertically
+- `ctrl+a, "` => Split the current pane horizontally
 - `ctrl+a, (h/j/k/l)` => Resize the current pane
 - `ctrl+a, q` => Show the numbers of all panes
 - `ctrl+a, q, number_of_pane` => Switch to a specific pane by number
