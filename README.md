@@ -54,4 +54,8 @@ To use these keybindings, you can add the necessary tmux configuration to your `
 
 Here is a basic example of how to add custom keybindings to `~/.tmux.conf`:
 
+clone tpm repo on your system then it adds `~/.tmux/plugins/tpm`
+
+then add all plugins using `ctrl+a, I` in tmux
+
 ---
