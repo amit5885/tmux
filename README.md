@@ -15,6 +15,7 @@ This repository contains a collection of essential **tmux** keybindings and comm
 - `tmux kill-session -t session_name` => Kill the targeted session by name
 - `tmux kill-server` => Kill all tmux sessions, windows, and panes
 - `tmux new -t session_name` => Create a new named session and window
+- `ctrl+a, $` => Rename the current session
 
 ### Window Management
 - `ctrl+a, c` => Create a new window
